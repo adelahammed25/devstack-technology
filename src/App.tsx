@@ -6,7 +6,7 @@ import { Hero } from "./components/Hero";
 import { Footer } from "./components/Footer";
 
 const allTech = async (): Promise<Tptechnology[]> => {
-  const response = await fetch("/data.json");
+  const response = await fetch("/devstack-technology/data.json");
   const techData = await response.json();
   return techData;
 };
