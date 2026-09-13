@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 export function Footer() {
   return (
-    <div className="border-t-2 mt-20">
+    <div className="border-t-2 mt-20 px-3 md:px-0">
       <footer className="footer sm:footer-horizontal text-black py-10 mx-auto container">
         <aside>
           <img src={logo} alt="" />
