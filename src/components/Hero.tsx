@@ -2,7 +2,7 @@ import banner from "../assets/banner.png";
 export function Hero() {
   return (
     <div className="hero text-black min-h-screen container mx-auto">
-      <div className="hero-content max-w-full px-0 grid grid-cols-2 justify-between lg:flex-row-reverse">
+      <div className="hero-content max-w-full px-0 grid grid-cols-1 justify-between px-3 md:grid-cols-2 md:px-0">
         <div>
           <h1 className="text-6xl font-bold">
             Build Your Ideal{" "}
