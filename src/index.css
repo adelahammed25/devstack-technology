@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  background: white;
+}
+.bg-gred {
+  background: linear-gradient(to right, #ff5722, #7c3aed);
+}
+
+.bg-gred-text {
+  background: linear-gradient(to right, #ff5722, #7c3aed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
